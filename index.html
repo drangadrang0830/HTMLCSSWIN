@@ -24,75 +24,31 @@
   gtag('config', 'G-GYVB2Q7HVL');
 </script>
     <style>
-        :root{
-            --color-primar:pink;
-            --color-danger:red;
-        }
-        body{
-            h1{
-	            color: var(--color-danger);
-	            background: white;
-	            font-weight: 700;
-                border: 3px solid var(--color-primar);
-            }
-            p{
-	            background: gray;
-	            color: var(--color-primar);
-                border: 3px solid var(--color-primar);
-            }
-            h2{
-	            background: gray;
-	            color: var(--color-danger);
-                border: 3px solid var(--color-primar);
-            }
-            .fist:has(.special){
-                border: 6px solid #000;
-            }
-            .form:has(:checked){
-                background: #000;
-            }
-            .box{
-                width: 300px;
-                margin: 0 auto;
-            }
-            .box img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: right;
-            }
-            .box-a{
-                aspect-ratio: 16/9;
-            }
-            .box-b{
-                aspect-ratio: 1/1;
-            }
-            .box-c{
-                aspect-ratio: 1.618/1;
-            }
-            .box-d{
-                aspect-ratio: 12/8;
-            }
-        }
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        scroll-snap-type: y mandatory;
+    }
+    .container{
+        height: 100%;
+    }
+    .panel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        height: 100vh;
+        scroll-snap-align: start;
+    }
     </style>
 </head>
 <body>
-    <div class="fist">
-        <h1 class="top special">123</h1>
-        <p class="top ">456</p>
-        <div class="form">
-            <form action="#">
-                <input type="checkbox" name="v" id="">
-            </form>
-            <h2 class="top">789</h2>
-        </div>
-    </div>
-    <div class="box">
-        <img class="box-a" src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?semt=ais_hybrid&w=740" alt="風景">
-        <img class="box-b" src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?semt=ais_hybrid&w=740" alt="風景">
-        <img class="box-c" src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?semt=ais_hybrid&w=740" alt="風景">
-        <img class="box-d" src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?semt=ais_hybrid&w=740" alt="風景">
-        <img class="box-e" src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?semt=ais_hybrid&w=740" alt="風景">
+    <div class="container">
+        <div class="panel" style="background-color: #ffadad;">第一區塊</div>
+        <div class="panel" style="background-color: #ffd6a5;">第二區塊</div>
+        <div class="panel" style="background-color: #fdffb6;">第三區塊</div>
+        <div class="panel" style="background-color: #94973f;">第四區塊</div>
     </div>
 </body>
 </html>
