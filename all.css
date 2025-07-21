@@ -54,6 +54,7 @@ h1{
     color:aqua ;
 }
 img{
+    width: 100%;
     aspect-ratio: 16:09;
 }
 @media(max-width:768px){
