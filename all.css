@@ -54,7 +54,7 @@ table {
     color:aqua ;
 }
 .img{
-    width: 33%;
+    width: 30%;
     aspect-ratio: 16/09;
 }
 @media(max-width:768px){
@@ -62,7 +62,7 @@ table {
     color:red ;
 }   
 .img{
-    width: 50%;    
+    width: 45%;    
 }
 }
 @media(max-width:375px){
@@ -70,6 +70,6 @@ table {
     color:blue ;
 }     
 .img{
-    width: 100%;    
+    width: 90%;    
 }  
 }
