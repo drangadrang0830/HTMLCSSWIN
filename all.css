@@ -54,16 +54,22 @@ table {
     color:aqua ;
 }
 .img{
-    width: 100%;
+    width: 33%;
     aspect-ratio: 16:09;
 }
 @media(max-width:768px){
  .title{
     color:red ;
 }   
+.img{
+    width: 50%;    
+}
 }
 @media(max-width:375px){
  .title{
     color:blue ;
-}       
+}     
+.img{
+    width: 100%;    
+}  
 }
