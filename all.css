@@ -46,8 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+    box-sizing: border-box;
+    font-family: Microsoft JhengHei;
+}
 .title{
     color:aqua ;
+}
+.img{
+    width: 100%;
+    aspect-ratio: 16:09;
 }
 @media(max-width:768px){
  .title{
