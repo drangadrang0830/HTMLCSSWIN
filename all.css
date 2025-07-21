@@ -50,20 +50,20 @@ table {
     box-sizing: border-box;
     font-family: Microsoft JhengHei;
 }
-h1{
+.title{
     color:aqua ;
 }
-img{
+.img{
     width: 100%;
     aspect-ratio: 16:09;
 }
 @media(max-width:768px){
- h1{
+ .title{
     color:red ;
 }   
 }
 @media(max-width:375px){
- h1{
+ .title{
     color:blue ;
 }       
 }
