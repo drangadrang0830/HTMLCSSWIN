@@ -48,31 +48,21 @@ table {
 }
 *{
     box-sizing: border-box;
-    font-family: "微軟正黑體";
+    font-family: Microsoft JhengHei;
 }
 h1{
-    font-size: 24px;
-    font-weight: bold;
+    color:aqua ;
 }
-.content ul{
-    display: flex;
+img{
+    aspect-ratio: 16:09;
 }
-.content li{
-    width: 98vh;
-    margin:5px 1vh 5px;
+@media(max-width:768px){
+ h1{
+    color:red ;
+}   
 }
-@media(min-width:768px){
-    .content li{
-    width: 48.2vh;
-    margin:5px 0.6vh 5px;
+@media(max-width:375px){
+ h1{
+    color:blue ;
+}       
 }
-}
-@media(min-width:1024px){
-    .content li{
-    width: 33vh;
-    margin:5px 0.25vh 5px;
-}
-}
-.content img(
-    display: block;
-)
