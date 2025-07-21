@@ -55,7 +55,7 @@ table {
 }
 .img{
     width: 33%;
-    aspect-ratio: 16:09;
+    aspect-ratio: 16/09;
 }
 @media(max-width:768px){
  .title{
